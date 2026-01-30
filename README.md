@@ -32,5 +32,10 @@ The project concluded with a **Keras Sequential Neural Network**:
 *   **Architecture:** A multi-layer perceptron (MLP) using the `Swish` activation function.
 *   **Regularization:** Integrated `Dropout` layers and `EarlyStopping` callbacks to prevent overfitting on the relatively small dataset.
 
+### 5. Deliverables & Submissions
+*   `titanic_disaster_analysis.ipynb`: The primary notebook containing all EDA, Feature Engineering, and Model Training.
+*   `submission.csv`: Final output for the **Traditional ML Ensemble** (Voting Classifier), which achieved a leaderboard score of **0.78708**.
+*   `tf_submission.csv`: Final output for the **Keras Sequential Neural Network**, which achieved the project-high score of **0.79186**.
+
 ## Conclusion
 The experimental results demonstrate that while ensemble methods like Voting Classifiers offer stability, Neural Network architectures can capture unique non-linearities in passenger demographics. The systematic tuning of regularization parameters (C, Gamma, and Dropout) proved essential in navigating the bias-variance tradeoff inherent in this tabular classification task.
